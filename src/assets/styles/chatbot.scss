@@ -1,0 +1,107 @@
+.rcb-chat-window{
+    width: 100% !important;
+    max-width: 887px;
+    margin: 20px auto;
+    padding: 23px 75px !important;
+    background-color: #FDFCFC !important;
+    border-radius: 20px !important;
+    
+}
+.rcb-chat-header{
+    .rcb-bot-avatar{
+        height: 51px !important;
+        width: 51px !important;
+        border: 2px solid #000000 !important;
+        border-radius: 100% !important;
+        margin-right: 2px !important;
+    }
+    h3{
+        margin: auto !important;
+    }
+}
+.rcb-chat-header-container{
+    padding: 0px !important;
+    background: none !important;
+    color: #2C2C2D !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border: none !important;
+}
+.rcb-bot-message{
+    // margin: 8px auto 8px 51px !important;
+    padding: 20px 19px;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 22.4px !important;
+    text-align: left !important;
+    border-radius: 2px 11px 11px 11px;
+    color: #2C2C2D !important;
+    background: #ffffff !important;
+    border: 1px solid #ECECEC !important;
+
+}
+.rcb-chat-input{
+    background: #F7F9FB !important;
+    border-radius: 16px !important;
+    padding: 16px 20px 16px 40px!important; 
+    border: none !important;
+    .rcb-chat-input-textarea{
+        background-color: #F7F9FB !important;
+        color: #000000 !important;
+        min-height: 20px !important;
+    }
+    .rcb-chat-input-button-container{
+        display: flex !important;
+        .rcb-send-button{
+            background: none !important;
+            width: 20px !important;
+            height: 20px !important;
+            box-shadow: none !important;
+            span{
+                width: 20px !important;
+                height: 20px !important;
+                background-repeat: no-repeat !important;
+                background: url(../../assets//icons/PaperPlaneRight.png) !important;
+            }
+        }
+    }
+}
+
+.rcb-user-message-container{
+    .rcb-user-message-entry{
+        // margin: 8px 51px 8px auto !important;
+        padding: 18px 20px;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        line-height: 22.4px !important;
+        text-align: left !important;
+        border-radius:11px 2px 11px 11px;
+        color: #2C2C2D !important;
+        background: #E4C1F6 !important;
+        border: 1px solid #ECECEC !important;
+    }
+}
+
+.rcb-options-container{
+    margin-left: 51px !important;
+}
+
+.rcb-chat-footer-container{
+    padding: 0px !important;
+    height: 0px !important;
+    margin-top: -20px !important;
+    border: none !important;
+    .rcb-emoji-button-enabled{
+        display: none !important;
+    }
+    background: none !important;
+    .rcb-chat-footer{
+        span{
+            margin-left: 10px;
+            display: block !important;
+        }
+    }
+    span{
+        display: none !important;
+    }
+}

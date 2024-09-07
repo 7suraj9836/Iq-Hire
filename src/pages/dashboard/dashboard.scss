@@ -1,0 +1,81 @@
+.dashboard{
+    display: flex;
+    background: #F1F1F1;
+    min-height: 100vh;
+    .arrowbtn{
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: -20px;
+        top: calc(50% - 20px);
+    }
+    .drawer{
+        width: 30%;
+        max-width: 250px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        ul{
+            li{
+                font-weight: 500 !important;
+                font-size: 16px !important;
+                gap: 10px;
+                color: #000000;
+                .svg{
+                    stroke: #000000;}
+                    &:hover{
+                        cursor: pointer;
+                        color: #F89B53;
+                        .svg{
+                            stroke: #F89B53 !important;
+                        }
+                    }
+            }
+            li.active{
+
+                .svg{
+                    stroke: #F89B53 !important;
+                }
+    
+                color: #F89B53;
+            }
+        }
+    }
+    .dashboard-content{
+        .cardheader{
+
+            position: relative;
+        }
+        width: 70%;
+        margin-inline: 20px;
+        flex-grow: 1;
+        .cstm-card{
+            border-radius: 6px;
+            padding: 24px;
+            background: #FFFFFF;
+            height: 100%;
+        }
+    }
+}
+
+
+li.active::before{
+    content: "";
+    position: absolute;
+    background: url(../../assets/img/draweractive.png) !important;
+    background-position: left !important;
+    background-repeat: no-repeat !important;
+    left: -10%;
+    height: 100%;
+    width: 20px;
+}
+li:hover:before{
+    content: "";
+    position: absolute;
+    background: url(../../assets/img/draweractive.png) !important;
+    background-position: left !important;
+    background-repeat: no-repeat !important;
+    left: -10%;
+    height: 100%;
+    width: 20px;
+}

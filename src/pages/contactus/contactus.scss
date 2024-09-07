@@ -1,0 +1,17 @@
+.contactus{
+    padding:33px 8px 68px 64px !important;
+    box-shadow: -0.09px 3.63px 35.53px -17.81px #757576 !important;
+    border-radius: 21.75px !important;
+
+}
+.contactusimg{
+    position: absolute;
+    width: 38%;
+    right: 70px;
+    bottom: 117px !important;
+}
+@media(max-width: 600px){
+    .contactusimg{
+        display: none;
+    }
+}

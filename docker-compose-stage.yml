@@ -1,0 +1,29 @@
+version: "3"
+services:
+  iqhire-frontend-stage:
+    container_name: iqhire-frontend-stage
+    #    restart: always
+    build: .
+    #command: bash -c "script.sh"
+    volumes:
+      - ./:/app
+  #  ports:
+   #   - "5034:80"
+    healthcheck:
+      test: curl --fail http://localhost || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 3G
+#Docker Networks
+#networks:
+  #  external: true
+networks:
+  default:
+    external: true
+    name: npm-nw
+

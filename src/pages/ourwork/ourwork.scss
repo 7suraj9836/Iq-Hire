@@ -1,0 +1,108 @@
+.card{
+    display: flex !important;
+    box-shadow: -0.09px 3.63px 35.53px -17.81px #757576 !important;
+    padding:30px 24px !important;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    border-radius: 21px !important;
+    .Content{
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 23px !important;
+    }
+}
+
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    img{
+        height: 100px !important;
+        width: 110px !important;
+    }
+}
+
+.banner-section-article{
+    h1.heading{
+        padding-inline: 10%;
+        text-align: center;
+    }
+    background: #FFEDE0;
+    padding: 77px;
+    .name-banner{
+        padding-block: 10px;
+        max-width: 570px;
+        border-top: 3px dotted rgb(5, 22, 77 , .5);
+        border-bottom: 3px dotted rgb(5, 22, 77 , .5);
+    }
+}
+
+.share-btn{
+    background: url(../../assets/img/svg/shareframe.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 14px !important;
+    color: #05164D !important;
+    padding: 6.76px 18px 6.76px 12px !important;
+    &:hover{
+        background-color: none !important;
+    }
+}
+
+.primary-btn-outline {
+    background: #ffffff !important;
+    color: #F89B53 !important;
+    border-radius: 20px !important;
+    border: 1px solid #F89B53 !important;
+    &.no-bg{
+        background: none !important;
+    }
+}
+
+.article-side-menu{
+    button{
+        align-items: end;
+        text-align: end;
+        padding-left: 0px;
+        margin-left: 16px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+        color: #656565;
+        &.Mui-selected{
+            background: #FFF4EC;
+            color: #212121 !important;
+            
+        }
+        
+    }
+    .MuiTabs-indicator{
+        width: 4px;
+        background: #F89B53;
+
+    }
+}
+.tab-content{
+    width: 100%;
+    padding-inline: 50px;
+    div{
+        padding: 0px !important;
+    }
+}
+
+div.lightorange-section{
+    padding: 30px !important;
+    border-radius: 15px;
+    background: #FFF4EC !important;
+    .leftquotes{
+        top: -18px;
+        left: 0px;
+        position: absolute;
+    }
+    .rightquotes{
+        bottom: -20px;
+        left: -36px;
+        position: relative;
+    }
+}

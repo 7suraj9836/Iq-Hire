@@ -1,0 +1,89 @@
+.cookiespopup{
+    .MuiDialog-container{
+        .MuiDialog-paper {
+            max-width: 939px !important;
+            padding: 45px 44px 45px 40px !important;
+            border-radius: 13px !important;
+        }
+    }
+}
+
+.startpopup{
+    .close{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+        color: white;
+        background: #F89B53;
+        border-radius: 100%;
+    }
+    .MuiDialog-container{
+        .MuiDialog-paper {
+            max-width: 1000px !important;
+            // border-radius: 13px !important;
+            width: 90%;
+        }
+    }
+.content{
+    width: 60%;
+    padding: 45px 44px 45px 40px !important;
+
+}
+.img{
+    width: 40%;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.glider-img-box{
+    position: relative;
+    .main-img{
+        height: 290px !important;
+        width: 100% !important;
+    }
+    .logo{
+        position: absolute;
+        left: 30px;
+        top: 10px;
+    }
+    .layer{
+        position: absolute;
+        height: 100%;
+        width: 48%;
+        right: 0px;
+        top: 0px;        
+    }
+}
+.glider-btn-box{
+    display: flex;
+    position: absolute;
+    left: -44px;
+    bottom: 100px;
+    gap: 10px;
+    hr{
+        min-height: 100px;
+        height: 100%;
+        border: 1.5px solid #F89B53 !important;
+        opacity: 1 !important;
+        margin: 0px !important;
+    }
+    &.number{
+        bottom: 50px !important;
+        hr{
+            min-height: 50px;
+            height: 100%;
+            border: 1.5px solid #ffffff !important;
+            opacity: 1 !important;
+            margin: 0px !important;
+        }
+        button{
+            font-size: 18px !important;
+        }
+    }
+}
+}

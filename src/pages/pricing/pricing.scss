@@ -1,0 +1,49 @@
+.banner-pricing{
+    background: linear-gradient(95.09deg, #B47E54 8.89%, rgba(168, 22, 191, 0.75) 56.44%, rgba(12, 0, 129, 0.78) 93.21%);
+
+    padding: 90px 70px 180px 70px;
+
+}
+.divider-pricing-text {
+    position: relative;
+    text-align: center;
+    margin-block: 50px 50px;
+}
+.divider-pricing-text:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: #E7EDF6;
+}
+
+.divider-pricing-text span {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    z-index: 9;
+}
+
+.divider-pricing-text p {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    z-index: 9;
+}
+
+.pricing-table-box{
+    margin: auto;
+    width: 200px;
+    padding: 16px;
+    gap: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(255, 210, 175, 0.25) -142.75%, rgba(255, 255, 255, 0.25) 100%);
+
+
+}
